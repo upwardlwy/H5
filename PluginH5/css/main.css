@@ -1,0 +1,120 @@
+.section {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.section1 {
+    background: #e0c8da;
+    background-size: 100% 100%;
+}
+
+.section2 {
+    background: #f1cacb;
+    background-size: 100% 100%;
+}
+
+.section3 {
+    background: rgba(130, 255, 216, 0.39);
+    background-size: 100% 100%;
+}
+
+/*menu*/
+#fp-nav.right {
+    right: 0;
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+    background: #333;
+    opacity: .5;
+    filter: alpha(opacity = 50);
+}
+
+/*第一屏*/
+.fadeInUp {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    width: 10rem;
+    height: auto;
+    -webkit-animation: fadeInUp 1s .5s 1 both;
+            animation: fadeInUp 1s .5s 1 both;
+}
+
+.fadeInLeft{
+    position: absolute;
+    width: 12rem;
+    height: 13.392857142857142%;
+    left: 25%;
+    top: 30%;
+    z-index: 1;
+    -webkit-animation: fadeInLeft  1s 2.5s 1 both;
+            animation: fadeInLeft  1s 2.5s 1 both;
+}
+
+.fadeInUp2 {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    height: 100%;
+    -webkit-animation: fadeInUp 1s 1.5s 1 both;
+            animation: fadeInUp 1s 1.5s 1 both;
+}
+
+.fadeInUp3 {
+    position: absolute;
+    width: 55%;
+    left: 0;
+    right: 0;
+    bottom: 2%;
+    margin: auto;
+    -webkit-animation: slideUp 1s 3.5s 1 both;
+            animation: slideUp 1s 3.5s 1 both;
+}
+
+/*第二屏*/
+.section2-img {
+    position: absolute;
+    width: 42%;
+    top: 5%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1;
+    display: none;
+}
+
+.section2-fadeInUp {
+    -webkit-animation: fadeInUp 1s .1s 1 both;
+            animation: fadeInUp 1s .1s 1 both;
+}
+
+.section2-img2 {
+    position: absolute;
+    top: 38%;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.section2-fadeInUp2 {
+    -webkit-animation: fadeInUp 1s 1.5s 1 both;
+            animation: fadeInUp 1s 1.5s 1 both;
+}
+
+.section2-img3 {
+    position: absolute;
+    width: 80%;
+    left: 0;
+    right: 0;
+    top: 60%;
+    margin: auto;
+    display: none;
+}
+
+.section2-fadeInUp3 {
+    -webkit-animation: rotateInDownLeft 1s 2.5s 1 both;
+            animation: rotateInDownLeft 1s 2.5s 1 both;
+}
+
