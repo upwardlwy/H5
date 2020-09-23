@@ -118,3 +118,22 @@
             animation: rotateInDownLeft 1s 2.5s 1 both;
 }
 
+.section3 .shake {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    width: 10rem;
+    height: auto;
+    -webkit-animation: shake 1s 1s 1 both;
+            animation: shake 1s 1s 1 both;
+}
+
+.section3  .vanishIn {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    width: 10rem;
+    height: auto;
+    -webkit-animation: vanishIn 1s 1s 1 both;
+            animation: vanishIn 1s 1s 1 both;
+}

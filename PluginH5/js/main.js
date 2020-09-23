@@ -15,12 +15,16 @@ $(function(){
         menu: '#menu',
         navigation: true,
         afterLoad: function(anchorLink,index){
-            $(".section2 img").hide().removeClass("");
+            $('.section1 img').hide();
+            $('.section2 img').hide();
+            $('.section3 img').hide();
 
             if(index == 2){
                 $(".section2 .section2-img").show().addClass("section2-fadeInUp");
                 $(".section2 .section2-img2").show().addClass("section2-fadeInUp2");
                 $(".section2 .section2-img3").show().addClass("section2-fadeInUp3");
+            } else {
+                $('.section'+index+' img').show();
             }
         }
     });
